@@ -16,10 +16,10 @@ This repository contains RanDepict, an easy-to-use utility to generate a big var
 ## Usage
 -  To use RanDepict, clone the repository to your local disk and make sure you install all the necessary requirements.
 
-### Installation
+### Installation (NOTE: This chapter was modified for mathcom!)
 
 ```shell
-$ git clone https://github.com/OBrink/RanDepict.git
+$ git clone https://github.com/mathcom/RanDepict.git
 $ cd RanDepict 
 $ python -m pip install -U pip #Upgrade pip
 $ pip install .
@@ -28,7 +28,7 @@ $ pip install .
 ### Alternative
 ```shell
 $ python -m pip install -U pip #Upgrade pip
-$ pip install git+https://github.com/OBrink/RanDepict.git
+$ pip install git+https://github.com/mathcom/RanDepict.git
 ```
 
 ### Install from PyPI
