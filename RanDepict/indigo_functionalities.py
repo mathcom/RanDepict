@@ -119,8 +119,8 @@ class IndigoFunctionalities:
         )
         indigo.setOption("render-stereo-style", stereo_style)
         # Collapse superatoms (default: expand)
-        if self.random_choice(
-            [True, False], log_attribute="indigo_collapse_superatoms"
-        ):
-            indigo.setOption("render-superatom-mode", "collapse")
+        #if self.random_choice(
+        #    [True, False], log_attribute="indigo_collapse_superatoms"
+        #):
+        #    indigo.setOption("render-superatom-mode", "collapse")
         return indigo, renderer
